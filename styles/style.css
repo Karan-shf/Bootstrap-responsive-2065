@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(../assets/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Poppins-Regular;
+}
+
+:root {
+    --secondary: #FA8305;
+    --primary-100: #5141AA;
+    --brown: #1C140F;
+    --black: #070707;
+}
+
+body {
+    background-color: #3B2A9F;
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+#joy-stick-img {
+    width: 500px;
+    height: 500px;
+}
+
+#cry-img {
+    position: absolute;
+    top: 9rem;
+    right: 29rem;
+}
+
+#unity-img {
+    position: absolute;
+    top: 19rem;
+    right: 33rem;
+}
+
+#unreal-img {
+    position: absolute;
+    top: 14rem;
+    right: 16rem;
+}
+
+.trending-games-img:hover {
+    opacity: 0.5;
+}
+
+.trending-games-txt:hover {
+    scale: 1.2;
+}
+
+#grid-img {
+    position: absolute;
+    right: 270px;
+    top: 130px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.fa-stack {
+    background-color: inherit;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+i {
+    color: black;
+    background-color: white;
+    border-radius: 100%;
+}
