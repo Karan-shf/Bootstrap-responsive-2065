@@ -60,6 +60,22 @@ a {
     display: inline-block;
 }
 
+@media (max-width:992px) {
+    #collapsibleNavbar{
+        background-color: #555555;
+        width: 100%;
+    }
+    #header {
+        padding: 0;
+    }
+    .header-content {
+        margin-left: 1rem;
+    }
+    #navbar-button{
+        margin-right: 1rem;
+    }
+} 
+
 #joy-stick-img {
     width: 500px;
     height: 500px;
